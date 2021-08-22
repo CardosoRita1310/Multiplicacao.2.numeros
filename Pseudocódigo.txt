@@ -1,0 +1,17 @@
+PROGRAMA MULTIPLICACAO
+
+VAR 
+A,B,P: Inteiro;
+
+INICIO 
+	ESCREVA("Digite o primeiro valor");
+	LEIA(A);
+
+	ESCREVA("Digite o segundo valor");
+	LEIA(B);
+
+	P = A*B;
+
+	ESCREVA("O resultado da multiplicação é" P);
+
+FIM

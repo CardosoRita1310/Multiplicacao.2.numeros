@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+main()
+ 
+ { int A,B,P;
+ 
+ printf("Digite o primeiro valor ");
+ scanf("%d", &A);
+ 
+ printf("Digite o segundo valor ");
+ scanf("%d", &B);
+ 
+ P = A * B;
+ 
+ printf("O resultado da multiplicação e %d \n", P);
+ 
+ system("pause");
+ }
+ 

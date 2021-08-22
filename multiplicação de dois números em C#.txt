@@ -1,0 +1,19 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		
+		Console.WriteLine("Digite o primeiro valor ");
+		 int A = Convert.ToInt32(Console.ReadLine());
+		
+		Console.WriteLine("Digite o segundo valor ");
+		int B = Convert.ToInt32(Console.ReadLine());
+		
+		int P = A * B;
+						  
+		Console.WriteLine("O resultado da multiplicação é: " + P);
+						  
+	}
+}
